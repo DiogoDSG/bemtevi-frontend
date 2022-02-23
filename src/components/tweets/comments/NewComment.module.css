@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  margin: 2.4rem;
+  margin-top: 0;
+  align-items: center;
+}
+
+.input {
+  border: 1px solid #ddd;
+  padding: 1.2rem;
+  width: 100%;
+  margin: 1.2rem;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 1rem;
+  background-color: #1098ad;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+}
+
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  padding-left: 0.2rem;
+}

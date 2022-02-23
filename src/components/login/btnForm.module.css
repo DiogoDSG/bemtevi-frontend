@@ -1,0 +1,20 @@
+.submit,
+.submit:visited {
+  background-color: #1098ad;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 6px;
+}
+
+.submit:active,
+.submit:hover {
+  background-color: #0b7285;
+}
+
+.submit:disabled {
+  background-color: #666;
+}

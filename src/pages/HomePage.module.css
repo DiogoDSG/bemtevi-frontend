@@ -1,0 +1,27 @@
+.container {
+  width: 130rem;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  column-gap: 2.4rem;
+  grid-template-rows: auto 1fr;
+  row-gap: 2.4rem;
+}
+
+.blur {
+  filter: blur(8px);
+}
+
+@media (max-width: 83em) {
+  .container {
+    width: 85rem;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media (max-width: 38em) {
+  .container {
+    width: 60rem;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,8 @@
+.container {
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 2.4rem;
+  color: #666;
+  align-self: start;
+  position: relative;
+}

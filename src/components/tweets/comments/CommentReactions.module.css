@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  gap: 4.8rem;
+}
+
+.reaction-container {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  align-items: center;
+}
+
+.icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.hearth:hover {
+  color: #f03e3e;
+  cursor: pointer;
+}
+
+.hearth-pressed {
+  color: #f03e3e;
+}
+
+.message:hover {
+  color: #22b8cf;
+  cursor: pointer;
+}
+
+.chat-pressed {
+  color: #22b8cf;
+}
+
+.bookmark:hover {
+  color: #ffd43b;
+  cursor: pointer;
+}
+
+.bookmark-pressed {
+  color: #ffd43b;
+}

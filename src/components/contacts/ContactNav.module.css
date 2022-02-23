@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  font-size: 1.8rem;
+  justify-content: space-between;
+  margin-bottom: 1.8rem;
+  color: #666;
+}

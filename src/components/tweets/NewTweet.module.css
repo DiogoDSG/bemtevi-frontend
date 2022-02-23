@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  padding: 2.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 11px;
+  margin-bottom: 2.4rem;
+}
+
+.input-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-input {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  border-radius: 11px;
+  margin-left: 1.2rem;
+  font-size: 16px;
+  resize: none;
+}
+
+.profile-pic {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 0.8rem 2.4rem;
+  align-self: flex-end;
+  margin-top: 1.2rem;
+  background-color: #1098ad;
+  color: #fff;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #0b7285;
+}

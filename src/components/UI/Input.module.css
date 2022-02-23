@@ -1,0 +1,33 @@
+.container {
+  margin-bottom: 1.8rem;
+}
+
+.label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+}
+
+.input {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  margin-top: 0.5rem;
+  border: 1px solid #999;
+  border-radius: 6px;
+}
+
+.invalid {
+  border: 1px solid #ff8787;
+  background-color: #fff5f5;
+}
+
+.invalid-label {
+  color: #c92a2a;
+}
+
+.error {
+  color: #c92a2a;
+  margin-top: 4px;
+  font-size: 1.2rem;
+}
