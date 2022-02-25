@@ -1,15 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import React, { useContext } from 'react';
-import Modal from './components/UI/Modal';
-import AuthContext from './store/auth-context';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useContext } from "react";
+import Modal from "./shared/components/UI/Modal";
+import AuthContext from "./shared/context/auth-context";
 
-import HomePage from './pages/HomePage';
-import LoginPage from './pages/LoginPage';
-import StartPage from './pages/StartPage';
+import HomePage from "./posts/pages/HomePage";
+import LoginPage from "./user/pages/LoginPage";
+import StartPage from "./shared/pages/StartPage";
 
-import Tweets from './components/tweets/Tweets';
-import Profile from './components/profile/UserProfile';
-import ProfileSettings from './components/profile/profileSettings/ProfileSettings';
+import PostPage from "./posts/pages/PostPage";
+import Profile from "./user/components/profile/UserProfile";
+import ProfileSettings from "./user/components/profile/profileSettings/ProfileSettings";
 
 const App = function () {
   const authCtx = useContext(AuthContext);
@@ -28,7 +28,7 @@ const App = function () {
         <Route path="/login" element={loginModal} />
         {isLogged && (
           <Route path="/home/" element={<HomePage logged={true} />}>
-            <Route path="tweets" element={<Tweets />} />
+            <Route path="posts" element={<PostPage />} />
             <Route path="profile" element={<Profile />} />
             <Route path="edit-profile" element={<ProfileSettings />} />
           </Route>

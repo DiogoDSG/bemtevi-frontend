@@ -1,0 +1,25 @@
+.container {
+  transform: translate(-150%, -100%);
+}
+
+.content {
+  width: 25rem;
+  height: 15rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+}
+
+.button-container {
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  align-items: center;
+  justify-content: center;
+}

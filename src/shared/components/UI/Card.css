@@ -1,0 +1,17 @@
+.card {
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 2.4rem;
+  color: #666;
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.start {
+  align-self: start;
+}
+
+.center {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
